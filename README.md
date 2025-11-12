@@ -1,0 +1,2 @@
+# Network Simulator and Graph Algorithms
+This project is an implementation of a basic network simulator built on C++ templates for graph algorithms (Dijkstra, BFS, DFS) and demonstrates object-oriented design for network devices (Router, Host, Link).
