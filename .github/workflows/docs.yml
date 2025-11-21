@@ -1,0 +1,43 @@
+name: Generate Doxygen Documentation
+
+on:
+  push:
+    branches:
+      - main
+      - feature/docs-ci
+      - feature/lab1-implementation # про всяк випадок
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # НАДАЄМО ПРАВА НА ЗАПИС (Щоб не було помилки 128)
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Завантажуємо всю історію
+
+      # ОЧИЩЕННЯ ГЛЮЧНИХ НАЛАШТУВАНЬ (Щоб не було помилки sdt.lab)
+      - name: Clean up problematic Git config
+        run: |
+          git config --global --unset-all http.extraheader || true
+          git config --global --unset-all url.http://sdt.lab.insteadof || true
+
+      - name: Install Doxygen and Graphviz
+        run: sudo apt-get update && sudo apt-get install -y doxygen graphviz
+
+      - name: Generate Doxygen HTML
+        run: doxygen Doxyfile
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
