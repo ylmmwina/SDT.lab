@@ -4,4 +4,4 @@ This project is an implementation of a basic network simulator built on C++ temp
 ## 📚 Documentation
 The full HTML documentation for the project (classes, methods, parameters) is automatically generated using **Doxygen** and published via **GitHub Actions** to **GitHub Pages**.
 
-* **Link to Documentation:** [ВСТАВТЕ ПОСИЛАННЯ НА GITHUB PAGES, яке з'явиться після публікації]
+* **Link to Documentation: https://ylmmwina.github.io/SDT.lab/
