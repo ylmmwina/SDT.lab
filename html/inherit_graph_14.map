@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="73,70,165,95"/>
+<area shape="rect" id="Node000001" href="$classtesting_1_1NaggyMock.html" title=" " alt="" coords="281,12,433,52"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="178,68,281,45,282,51,179,73"/>
+<area shape="rect" id="Node000003" href="$classtesting_1_1NiceMock.html" title=" " alt="" coords="282,83,433,123"/>
+<area shape="poly" id="edge9_Node000000_Node000003" title=" " alt="" coords="179,85,282,94,282,99,179,90"/>
+<area shape="rect" id="Node000005" href="$classtesting_1_1StrictMock.html" title=" " alt="" coords="285,159,429,199"/>
+<area shape="poly" id="edge10_Node000000_Node000005" title=" " alt="" coords="179,90,234,106,323,156,320,161,232,110,178,95"/>
+<area shape="rect" id="Node000002" href="$classtesting_1_1internal_1_1NaggyMockImpl.html" title=" " alt="" coords="5,5,233,45"/>
+<area shape="poly" id="edge11_Node000002_Node000001" title=" " alt="" coords="247,26,281,27,281,33,247,32"/>
+<area shape="rect" id="Node000004" href="$classtesting_1_1internal_1_1NiceMockImpl.html" title=" " alt="" coords="12,120,227,160"/>
+<area shape="poly" id="edge12_Node000004_Node000003" title=" " alt="" coords="240,118,281,112,282,117,241,124"/>
+<area shape="rect" id="Node000006" href="$classtesting_1_1internal_1_1StrictMockImpl.html" title=" " alt="" coords="9,184,229,224"/>
+<area shape="poly" id="edge13_Node000006_Node000005" title=" " alt="" coords="242,188,285,184,285,189,243,194"/>
+</map>

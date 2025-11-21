@@ -1,0 +1,5 @@
+<map id="RoutingAlgorithm" name="RoutingAlgorithm">
+<area shape="rect" id="Node000001" title="Абстрактний інтерфейс для алгоритмів маршрутизації." alt="" coords="5,5,141,31"/>
+<area shape="rect" id="Node000002" href="$classDijkstraRouting.html" title="Реалізація алгоритму маршрутизації на основі Дейкстри." alt="" coords="12,79,135,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,44,76,79,71,79,71,44"/>
+</map>
